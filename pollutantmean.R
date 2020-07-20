@@ -1,6 +1,5 @@
 # - Create a function, named "pollutantmean"
 
-
 pollutantmean = function(directory, pollutant, id = 1:332){
   files = list.files(directory, full.names = TRUE)
   data = data.frame()
